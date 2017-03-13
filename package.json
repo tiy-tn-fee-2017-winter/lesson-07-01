@@ -1,0 +1,11 @@
+{
+  "name": "lesson-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ryan Tablada <ryan.tablada@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.12.7",
+    "pg": "^6.1.4"
+  }
+}
