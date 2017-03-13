@@ -8,11 +8,12 @@ const database = KnexLib(config.development);
 
 console.log('ITS WORKING');
 
-// Select data from users table
-database.select().from('users')
-  .then((users) => {
-    console.log(users);
+async function app() {
+  // Select from "users" table
+  const users = await database.select().from('users');
 
-    // Close the app
-    process.exit();
-  });
+  console.log(users);
+  process.exit();
+}
+
+app();
