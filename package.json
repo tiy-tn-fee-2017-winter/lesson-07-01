@@ -5,6 +5,7 @@
   "author": "Ryan Tablada <ryan.tablada@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "inquirer": "^3.0.6",
     "knex": "^0.12.7",
     "pg": "^6.1.4"
   }
